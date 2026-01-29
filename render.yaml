@@ -1,7 +1,7 @@
 services:
   - type: web
     name: moltbot
-    runtime: docker
+    runtime: starter
     plan: free
     healthCheckPath: /health
     envVars:
